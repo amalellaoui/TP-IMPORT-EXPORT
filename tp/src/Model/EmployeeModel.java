@@ -13,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 import DAO.DBConnection;
 import DAO.EmployeeDAOImpl;
-import Utilities.Utils;
 import View.EmployeeView;
+import exceept.Utils;
 
 public class EmployeeModel {
     private EmployeeDAOImpl dao;

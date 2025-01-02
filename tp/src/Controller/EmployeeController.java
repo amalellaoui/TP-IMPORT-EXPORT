@@ -7,7 +7,6 @@ import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
 
-import Utilities.Utils;
 import java.io.IOException;
 
 import Model.Employee;
@@ -16,6 +15,7 @@ import Model.LoginModel;
 import Model.Poste;
 import Model.Role;
 import View.EmployeeView;
+import exceept.Utils;
 
 public class EmployeeController {
     protected EmployeeModel employeeModel;
